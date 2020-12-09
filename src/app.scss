@@ -1,12 +1,28 @@
 $fontColor : gold;
+$btnpad: 10px 20px;
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: grey;
 }
 
-h1, h2 {
+
+.container {
+    max-width: 1170px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1, h2, button {
     color: $fontColor;
     margin-bottom: 10px;
+}
+
+button {
+    background-color: transparent;
+    padding: $btnpad;
+    border: 2px dotted gold;
 }

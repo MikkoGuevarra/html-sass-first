@@ -2,11 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: grey;
+}
+
+.container {
+  max-width: 1170px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 h1,
-h2 {
+h2,
+button {
   color: gold;
   margin-bottom: 10px;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px dotted gold;
 }
 
